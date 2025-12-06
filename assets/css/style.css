@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #f7f7f9;   /* Off-white */
+    background: #F0FFFF;   /* Off-white */
     color: #000000;        /* Pure black */
 }
 
@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 6%;
-    background: #dbe6f6; /* Soft minimal blue */
+    background: #87CEFA; /* Soft minimal blue */
     border-bottom: 1px solid #c7d4e8;
     position: sticky;
     top: 0;
@@ -27,7 +27,7 @@ body {
 .logo {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #1d4ed8; /* Light-medium blue */
+    color: #187CEFA; /* Light-medium blue */
 }
 
 .nav-links {

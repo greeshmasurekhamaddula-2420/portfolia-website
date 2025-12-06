@@ -201,19 +201,93 @@ body {
 .contact-footer {
     margin-top: 0.8rem;
     color: #
-/* ------ About page layout fixes ------ */
-.about-page {
-    max-width: 900px;      /* content width */
-    margin: 0 auto;        /* center on page */
-    padding: 3rem 1.5rem;  /* space from edges */
-    background: #f7f7f9;
 }
- /* Better line spacing for text */
+/* ===== ABOUT PAGE & ACCORDION ===== */
+.page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+.about-page h1 {
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+}
+
+.about-page .section-text {
+    max-width: 700px;
+}
+
+/* Better line spacing for text */
 .section-text {
     font-size: 1rem;
-    line-height: 1.7;     /* more space between lines */
+    line-height: 1.7;
+}
+
+.bullet-list {
+    list-style: disc;
+    padding-left: 1.3rem;
 }
 
 .bullet-list li {
-    line-height: 1.6;     /* more space between bullet lines */
+    line-height: 1.6;
+}
+
+/* Accordion container */
+.about-accordion {
+    max-width: 800px;
+}
+
+/* Each accordion block */
+.accordion-item {
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #d4d4dd;
+    margin-bottom: 0.9rem;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.03);
+}
+
+/* Heading row */
+.accordion-item > summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1d4ed8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Remove default arrow */
+.accordion-item > summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Plus / minus icon */
+.accordion-item > summary::after {
+    content: "+";
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #64748b;
+}
+
+.accordion-item[open] > summary::after {
+    content: "−";
+}
+
+/* Content */
+.accordion-content {
+    padding: 0 1rem 0.9rem 1rem;
+    border-top: 1px solid #e5e7eb;
+    background: #fdfdff;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+    .page {
+        padding: 2.5rem 1.2rem;
+    }
 }

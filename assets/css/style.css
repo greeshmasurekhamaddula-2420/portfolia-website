@@ -309,3 +309,14 @@ body {
     font-weight: 600;
     color: #1d4ed8;
 }
+/* ----- FOOTER FIX ----- */
+footer,
+.footer {
+    width: 100%;
+    text-align: center;       /* centers the footer text */
+    padding: 1.2rem 0;
+    background: #dbe6f6;      /* same light blue header theme */
+    color: black;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}

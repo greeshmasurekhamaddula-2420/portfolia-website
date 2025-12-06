@@ -291,3 +291,15 @@ body {
         padding: 2.5rem 1.2rem;
     }
 }
+/* Works page heading spacing */
+.works-page h1 {
+    margin-bottom: 0.6rem;
+}
+
+/* Sub-headings inside accordion */
+.sub-heading {
+    margin-top: 1rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #1d4ed8;
+}

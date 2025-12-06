@@ -18,9 +18,10 @@ body {
     align-items: center;
     padding: 1rem 6%;
     border-bottom: 1px solid #1f2937;
-    position: sticky;
+    background:#e0f2ff;
+    /*position: sticky;
     top: 0;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);*/
 }
 
 .logo {
